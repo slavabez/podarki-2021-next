@@ -100,13 +100,20 @@ const Layout: React.FC = (props) => {
         <HeaderLinks>
           <HeaderLink href="/files/skazka-podarki-2021-compressed.pdf">
             <HeaderLinkIcon
+              width={25}
+              height={25}
               src="/svgs/map_icon.svg"
               alt="Каталог Новогодних подарков 2021 от Сказки"
             />
             <HeaderLinkText>Каталог</HeaderLinkText>
           </HeaderLink>
           <HeaderLink href="#footer">
-            <HeaderLinkIcon src="/svgs/map_icon.svg" alt="Карта" />
+            <HeaderLinkIcon
+              width={25}
+              height={25}
+              src="/svgs/map_icon.svg"
+              alt="Карта"
+            />
             <HeaderLinkText>Где Мы</HeaderLinkText>
           </HeaderLink>
         </HeaderLinks>

@@ -71,7 +71,7 @@ const SiteFooter = () => (
     <AddressBlock>
       <AddressTop>
         <AddressIconContainer>
-          <img src="/svgs/map_icon.svg" alt="Карта" />
+          <img width={35} height={35} src="/svgs/map_icon.svg" alt="Карта" />
         </AddressIconContainer>
         <AddressTextContainer>
           <address>Сказка ждёт вас:</address>
@@ -98,7 +98,7 @@ const SiteFooter = () => (
     <AddressBlock>
       <AddressTop>
         <AddressIconContainer>
-          <img src="/svgs/map_icon.svg" alt="Карта" />
+          <img width={35} height={35} src="/svgs/map_icon.svg" alt="Карта" />
         </AddressIconContainer>
         <AddressTextContainer>
           <address>Сказка ждёт вас:</address>
