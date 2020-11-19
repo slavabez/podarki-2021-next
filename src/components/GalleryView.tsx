@@ -83,10 +83,10 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
     <>
       <TotalText>Показано подарков: {presentsToShow.length}</TotalText>
       <GalleryWrapper>
-        {presentsToShow.map((id) => {
-          const description = `Новогодний подарок "${id.name}", ${id.weight}гр за ${id.price} тенге.`;
+        {presentsToShow.map((item) => {
+          const description = `Новогодний подарок "${item.name}", ${item.weight}гр за ${item.price} тенге.`;
           return (
-            <GalleryItemCard key={id.folder}>
+            <GalleryItemCard key={item.folder}>
               <SimpleReactLightbox>
                 <SRLWrapper
                   options={{
@@ -97,12 +97,12 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                 >
                   <CoverImageWrapper>
                     <a
-                      href={`/images/presents/${id.folder}/1.jpg`}
+                      href={`/images/presents/${item.folder}/1.jpg`}
                       data-attribute="SRL"
                     >
                       <Image
-                        key={id.folder}
-                        src={`/images/presents/${id.folder}/thumb/1.jpg`}
+                        key={item.folder}
+                        src={`/images/presents/${item.folder}/thumb/1.jpg`}
                         width={220}
                         height={330}
                         alt={description}
@@ -110,14 +110,14 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                     </a>
                   </CoverImageWrapper>
                   <OtherImageContainer>
-                    {id?.images?.map((filename) => (
-                      <MiniImageWrapper key={`${id.folder}-${filename}`}>
+                    {item?.images?.map((filename) => (
+                      <MiniImageWrapper key={`${item.folder}-${filename}`}>
                         <a
-                          href={`/images/presents/${id.folder}/${filename}`}
+                          href={`/images/presents/${item.folder}/${filename}`}
                           data-attribute="SRL"
                         >
                           <Image
-                            src={`/images/presents/${id.folder}/thumb/${filename}`}
+                            src={`/images/presents/${item.folder}/thumb/${filename}`}
                             width={70}
                             height={70}
                             alt={description}
@@ -127,9 +127,9 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                     ))}
                   </OtherImageContainer>
                   <MetadataContainer>
-                    <Price>{id.price}₸</Price>
-                    <Name>{id.name}</Name>
-                    <Weight>{id.weight}г</Weight>
+                    <Price>{item.price}₸</Price>
+                    <Name>{item.name}</Name>
+                    <Weight>{item.weight}г</Weight>
                   </MetadataContainer>
                 </SRLWrapper>
               </SimpleReactLightbox>

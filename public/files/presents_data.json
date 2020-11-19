@@ -92,7 +92,7 @@
     "name": "Елка",
     "weight": 700,
     "price": 1800,
-    "quantity": 5,
+    "quantity": 4,
     "folder": "elka"
   },
   {
@@ -364,7 +364,7 @@
     "name": "Лесные непоседы",
     "weight": 400,
     "price": 770,
-    "quantity": 3,
+    "quantity": 2,
     "folder": "lesnie_neposedi"
   },
   {
@@ -700,7 +700,7 @@
     "name": "Веселый грузовик",
     "weight": 915,
     "price": 1800,
-    "quantity": 4,
+    "quantity": 3,
     "folder": "veselyi_gruzovik"
   },
   {

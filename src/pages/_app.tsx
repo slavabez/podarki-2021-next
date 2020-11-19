@@ -1,5 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import React from "react";
+import Layout from "../components/Layout";
+import Head from "next/head";
 
 const GlobalStyle = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
@@ -91,7 +93,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -124,7 +125,6 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
   content: none;
 }
 table {
@@ -154,7 +154,53 @@ export default function App({ Component, pageProps }) {
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
+        <Layout>
+          <Head>
+            <title>Сказка - Новогодние подарки и кульки 2021</title>
+            <meta
+              name="title"
+              content="Сказка - Новогодние подарки и кульки 2021"
+            />
+            <meta
+              name="description"
+              content="Детские новогодние подарки, новогодние кульки со сладостями в г. Кокшетау, г. Костанай и г. Петропавловск. Новогодние кульки с конфетами и шоколадом из Казахстана и России"
+            />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://skazka-podarki.kz/" />
+            <meta
+              property="og:title"
+              content="Сказка - Новогодние подарки и кульки 2021"
+            />
+            <meta
+              property="og:description"
+              content="Детские новогодние подарки, новогодние кульки со сладостями в г. Кокшетау, г. Костанай и г. Петропавловск. Новогодние кульки с конфетами и шоколадом из Казахстана и России"
+            />
+            <meta
+              property="og:image"
+              content="https://skazka-podarki.kz/share_image_wide.png"
+            />
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content="https://skazka-podarki.kz/" />
+            <meta
+              property="twitter:title"
+              content="Сказка - Новогодние подарки и кульки 2021"
+            />
+            <meta
+              property="twitter:description"
+              content="Детские новогодние подарки, новогодние кульки со сладостями в г. Кокшетау, г. Костанай и г. Петропавловск. Новогодние кульки с конфетами и шоколадом из Казахстана и России"
+            />
+            <meta
+              property="twitter:image"
+              content="https://skazka-podarki.kz/share_image_wide.png"
+            />
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+              rel="stylesheet"
+            />
+          </Head>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </>
   );

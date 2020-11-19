@@ -38,7 +38,7 @@ const Header = styled.header`
 const SiteTitle = styled.span`
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
 
   @media (min-width: 500px) {

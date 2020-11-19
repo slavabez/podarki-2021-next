@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import GalleryView from "./GalleryView";
+import { useEffect } from "react";
 
 export interface PresentGalleryItem {
   folder?: string;
@@ -154,9 +155,7 @@ const GallerySection: React.FC<{
   if (typeof window !== "undefined") {
     initialBrowserWidth = window.innerWidth;
   }
-  const [isFilterOpen, setIsFilterOpen] = React.useState(
-    initialBrowserWidth >= 768
-  );
+  const [isFilterOpen, setIsFilterOpen] = React.useState(false);
   const [options, setOptions] = React.useState<FilterOptions>({
     first: false,
     second: false,
@@ -164,6 +163,12 @@ const GallerySection: React.FC<{
     fourth: false,
   });
   const [sort, setSort] = React.useState(`none`);
+
+  useEffect(() => {
+    if (initialBrowserWidth >= 768) {
+      setIsFilterOpen(true);
+    }
+  }, []);
 
   const toggleFilter = () => {
     setIsFilterOpen(!isFilterOpen);
