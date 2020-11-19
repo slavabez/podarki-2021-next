@@ -6,7 +6,6 @@ import { extractPresentsData } from "../utils/helpers";
 
 export default function Home() {
   const imageData = extractPresentsData();
-  console.log(imageData);
   return (
     <Layout>
       <Head>
