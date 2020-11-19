@@ -37,10 +37,6 @@ const MiniImageWrapper = styled.div`
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-
-  /*&:nth-child(n + 4) {
-    display: none;
-  }*/
 `;
 
 const MetadataContainer = styled.div`
@@ -106,6 +102,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                         width={220}
                         height={330}
                         alt={description}
+                        loading="eager"
                       />
                     </a>
                   </CoverImageWrapper>
@@ -116,7 +113,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                           href={`/images/presents/${item.folder}/${filename}`}
                           data-attribute="SRL"
                         >
-                          <Image
+                          <img
                             src={`/images/presents/${item.folder}/thumb/${filename}`}
                             width={70}
                             height={70}

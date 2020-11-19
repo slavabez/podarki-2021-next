@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Image from "next/image";
 import GalleryView from "./GalleryView";
 import { useEffect } from "react";
+import Head from "next/head";
 
 export interface PresentGalleryItem {
   folder?: string;
@@ -237,6 +238,9 @@ const GallerySection: React.FC<{
 
   return (
     <Section>
+      <Head>
+        <title>Сказка - Новогодние подарки и кульки 2021</title>
+      </Head>
       <SettingsSection>
         <FilterSection>
           <FilterTitle onClick={toggleFilter}>Фильтр по цене</FilterTitle>
