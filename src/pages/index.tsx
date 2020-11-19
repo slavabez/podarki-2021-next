@@ -1,18 +1,15 @@
-import styled from "styled-components";
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 import Layout from "../components/Layout";
 import GallerySection from "../components/GallerySection";
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
+import { extractPresentsData } from "../utils/helpers";
 
 export default function Home() {
+  const imageData = extractPresentsData();
+  console.log(imageData);
   return (
     <Layout>
-      <Helmet>
+      <Head>
         <title>Сказка - Новогодние подарки и кульки 2021</title>
         <meta
           name="title"
@@ -50,8 +47,8 @@ export default function Home() {
           property="twitter:image"
           content="https://skazka-podarki.kz/share_image_wide.png"
         />
-      </Helmet>
-      <GallerySection imageData={[]} />
+      </Head>
+      <GallerySection imageData={imageData} />
     </Layout>
   );
 }

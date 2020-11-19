@@ -4,7 +4,7 @@
     "name": "Акробаты",
     "weight": 475,
     "price": 1000,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "akrobati"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Бандероль",
     "weight": 640,
     "price": 1200,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "banderol"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Бумажные снежинки",
     "weight": 330,
     "price": 500,
-    "quantity": 153,
+    "quantity": 2,
     "folder": "bumazhnie_snezhinki"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Чудеса случаются",
     "weight": 590,
     "price": 1300,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "chudesa_sluchayutsa"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Дед Мороз",
     "weight": 640,
     "price": 1450,
-    "quantity": 3000,
+    "quantity": 3,
     "folder": "ded_moroz"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Дед Мороз на санях,Коровка",
     "weight": 720,
     "price": 1785,
-    "quantity": 1200,
+    "quantity": 4,
     "folder": "ded_moroz_na_sanyah"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Дед Мороз с часами",
     "weight": 780,
     "price": 1800,
-    "quantity": 1045,
+    "quantity": 3,
     "folder": "ded_moroz_s_chasami"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Деревянная посылка",
     "weight": 2000,
     "price": 4500,
-    "quantity": 370,
+    "quantity": 3,
     "folder": "derevannaya_posilka"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Детки и Снеговики",
     "weight": 230,
     "price": 400,
-    "quantity": 1525,
+    "quantity": 3,
     "folder": "detki_i_snegoviki"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Друзья",
     "weight": 350,
     "price": 580,
-    "quantity": 1325,
+    "quantity": 3,
     "folder": "druzya"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Эко сумочка",
     "weight": 420,
     "price": 800,
-    "quantity": 136,
+    "quantity": 3,
     "folder": "eko_sumochka"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Елка",
     "weight": 700,
     "price": 1800,
-    "quantity": 2000,
+    "quantity": 5,
     "folder": "elka"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Елочка",
     "weight": 390,
     "price": 650,
-    "quantity": 1000,
+    "quantity": 4,
     "folder": "elochka"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Ежик Тим",
     "weight": 200,
     "price": 355,
-    "quantity": 1500,
+    "quantity": 3,
     "folder": "ezhik_tim"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Гаврюша (кроссворд)",
     "weight": 450,
     "price": 800,
-    "quantity": 2000,
+    "quantity": 3,
     "folder": "gavryusha_krossvord"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Гаврюша",
     "weight": 200,
     "price": 355,
-    "quantity": 1500,
+    "quantity": 3,
     "folder": "gavryusha"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Город гномов",
     "weight": 460,
     "price": 900,
-    "quantity": 274,
+    "quantity": 3,
     "folder": "gorod_gnomov"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Грузовик С Новым Годом!",
     "weight": 1000,
     "price": 2100,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "gruzovik_s_novim_godom"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Книга догони Деда Мороза",
     "weight": 600,
     "price": 1300,
-    "quantity": 555,
+    "quantity": 3,
     "folder": "kniga_dogoni_deda_moroza"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Книга Игра",
     "weight": 600,
     "price": 1300,
-    "quantity": 500,
+    "quantity": 3,
     "folder": "kniga_igra"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Книга Космос",
     "weight": 1090,
     "price": 2500,
-    "quantity": 300,
+    "quantity": 3,
     "folder": "kniga_kosmos"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Книга Космос мал.",
     "weight": 550,
     "price": 1100,
-    "quantity": 500,
+    "quantity": 3,
     "folder": "kniga_kosmos_malenkiy"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Книга Новогодние рецепты мал.",
     "weight": 550,
     "price": 1100,
-    "quantity": 500,
+    "quantity": 3,
     "folder": "kniga_novogodnie_recepti_deda_moroza"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Книга Новогодний сувенир",
     "weight": 530,
     "price": 1000,
-    "quantity": 600,
+    "quantity": 3,
     "folder": "kniga_novogodniy_suvenir"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Книга Профессий",
     "weight": 600,
     "price": 1125,
-    "quantity": 500,
+    "quantity": 3,
     "folder": "kniga_professiy"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Книга Приключения с гномами",
     "weight": 1025,
     "price": 2200,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "kniga_priklucheniya_s_gnomami"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Книга с Космо-Новым годом!",
     "weight": 1170,
     "price": 2700,
-    "quantity": 800,
+    "quantity": 3,
     "folder": "kniga_s_kosmo_novim_godom"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Книга С Новым Годом!",
     "weight": 530,
     "price": 1000,
-    "quantity": 600,
+    "quantity": 3,
     "folder": "kniga_s_novim_godom"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Книга Сказочная дружина",
     "weight": 1000,
     "price": 2400,
-    "quantity": 670,
+    "quantity": 3,
     "folder": "kniga_skazochnaya_druzhina"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Книга Снежная королева",
     "weight": 1090,
     "price": 2500,
-    "quantity": 214,
+    "quantity": 3,
     "folder": "kniga_snezhnaya_koroleva"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Книга Традиции  Нового года",
     "weight": 1030,
     "price": 2500,
-    "quantity": 300,
+    "quantity": 3,
     "folder": "kniga_tradicii_novogo_goda"
   },
   {
@@ -252,7 +252,7 @@
     "name": "Книга Удивительное рядом",
     "weight": 1055,
     "price": 2600,
-    "quantity": 300,
+    "quantity": 3,
     "folder": "kniga_udivitelnoe_ryadom"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Книга Виммельбух",
     "weight": 530,
     "price": 1000,
-    "quantity": 600,
+    "quantity": 3,
     "folder": "kniga_vimmelbuh"
   },
   {
@@ -268,7 +268,7 @@
     "name": "Книга Зоопарк",
     "weight": 1090,
     "price": 2500,
-    "quantity": 100,
+    "quantity": 3,
     "folder": "kniga_zoopark"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Колокол",
     "weight": 640,
     "price": 1250,
-    "quantity": 1100,
+    "quantity": 3,
     "folder": "kolokol"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Колокол с часами",
     "weight": 2000,
     "price": 4600,
-    "quantity": 600,
+    "quantity": 3,
     "folder": "kolokol_s_chasami"
   },
   {
@@ -292,7 +292,7 @@
     "name": "Конфетка",
     "weight": 250,
     "price": 365,
-    "quantity": 2535,
+    "quantity": 5,
     "folder": "konfetka"
   },
   {
@@ -300,7 +300,7 @@
     "name": "Кормушка",
     "weight": 990,
     "price": 2000,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "kormushka"
   },
   {
@@ -308,7 +308,7 @@
     "name": "Ковбой",
     "weight": 815,
     "price": 2000,
-    "quantity": 1500,
+    "quantity": 3,
     "folder": "kovboy"
   },
   {
@@ -316,7 +316,7 @@
     "name": "Крепкая дружба",
     "weight": 285,
     "price": 440,
-    "quantity": 1505,
+    "quantity": 4,
     "folder": "krepkaya_druzhba"
   },
   {
@@ -324,7 +324,7 @@
     "name": "Кубик большой",
     "weight": 400,
     "price": 660,
-    "quantity": 1100,
+    "quantity": 4,
     "folder": "kubik_bolshoy"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Кубик маленький",
     "weight": 160,
     "price": 255,
-    "quantity": 2235,
+    "quantity": 5,
     "folder": "kubik_malenkiy"
   },
   {
@@ -340,7 +340,7 @@
     "name": "Лапландия",
     "weight": 665,
     "price": 1250,
-    "quantity": 1032,
+    "quantity": 3,
     "folder": "laplandiya"
   },
   {
@@ -348,7 +348,7 @@
     "name": "Лапушка",
     "weight": 435,
     "price": 750,
-    "quantity": 1000,
+    "quantity": 4,
     "folder": "lapushka"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Ларец с часами",
     "weight": 730,
     "price": 1355,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "larec_s_chasami"
   },
   {
@@ -364,15 +364,15 @@
     "name": "Лесные непоседы",
     "weight": 400,
     "price": 770,
-    "quantity": 1450,
-    "folder": "lesnye_neposedy"
+    "quantity": 3,
+    "folder": "lesnie_neposedi"
   },
   {
     "number": 88,
     "name": "Лучший подарок",
     "weight": 1515,
     "price": 3500,
-    "quantity": 600,
+    "quantity": 3,
     "folder": "luchshiy_podarok"
   },
   {
@@ -380,7 +380,7 @@
     "name": "Недорогой подарок",
     "weight": 300,
     "price": 450,
-    "quantity": 4417,
+    "quantity": 3,
     "folder": "nedorogoy_podarok"
   },
   {
@@ -388,7 +388,7 @@
     "name": "Новогоднее путешествие",
     "weight": 1200,
     "price": 3000,
-    "quantity": 250,
+    "quantity": 3,
     "folder": "novogodnee_puteshestvie"
   },
   {
@@ -396,7 +396,7 @@
     "name": "Ночной город",
     "weight": 435,
     "price": 850,
-    "quantity": 1050,
+    "quantity": 3,
     "folder": "nochnoy_gorod"
   },
   {
@@ -404,7 +404,7 @@
     "name": "Новогодняя кладовка",
     "weight": 1550,
     "price": 3500,
-    "quantity": 1045,
+    "quantity": 3,
     "folder": "novogodnaya_kladovka"
   },
   {
@@ -412,7 +412,7 @@
     "name": "Новогодняя юрта",
     "weight": 825,
     "price": 1700,
-    "quantity": 2000,
+    "quantity": 3,
     "folder": "novogodnaya_yurta"
   },
   {
@@ -420,7 +420,7 @@
     "name": "Новогоднее чудо",
     "weight": 460,
     "price": 780,
-    "quantity": 1135,
+    "quantity": 3,
     "folder": "novogodnee_chudo"
   },
   {
@@ -428,7 +428,7 @@
     "name": "Новогоднее кафе",
     "weight": 1250,
     "price": 2900,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "novogodnee_kafe"
   },
   {
@@ -436,7 +436,7 @@
     "name": "Новогоднее веселье",
     "weight": 475,
     "price": 800,
-    "quantity": 1170,
+    "quantity": 3,
     "folder": "novogodnee_vesele"
   },
   {
@@ -444,7 +444,7 @@
     "name": "Новогодние каникулы",
     "weight": 360,
     "price": 600,
-    "quantity": 2200,
+    "quantity": 6,
     "folder": "novogodnie_kanikuli"
   },
   {
@@ -452,7 +452,7 @@
     "name": "Новогодний домик",
     "weight": 210,
     "price": 335,
-    "quantity": 4757,
+    "quantity": 6,
     "folder": "novogodniy_domik"
   },
   {
@@ -460,7 +460,7 @@
     "name": "Новогодний колпак",
     "weight": 590,
     "price": 1100,
-    "quantity": 1500,
+    "quantity": 5,
     "folder": "novogodniy_kolpak"
   },
   {
@@ -468,7 +468,7 @@
     "name": "Новогодний фонарь",
     "weight": 785,
     "price": 1700,
-    "quantity": 1000,
+    "quantity": 4,
     "folder": "novogodniy_fonar"
   },
   {
@@ -476,7 +476,7 @@
     "name": "Новогодние рецепты ДМ",
     "weight": 1170,
     "price": 2700,
-    "quantity": 700,
+    "quantity": 3,
     "folder": "novogodniye_recepti_deda_moroza"
   },
   {
@@ -484,7 +484,7 @@
     "name": "Новогодняя сказка",
     "weight": 750,
     "price": 1520,
-    "quantity": 2000,
+    "quantity": 6,
     "folder": "novogodnaya_skazka"
   },
   {
@@ -492,7 +492,7 @@
     "name": "Письмо от Деда Мороза",
     "weight": 400,
     "price": 740,
-    "quantity": 710,
+    "quantity": 4,
     "folder": "pismo_ot_ded_moroza"
   },
   {
@@ -500,7 +500,7 @@
     "name": "Почта Деда Мороза",
     "weight": 450,
     "price": 800,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "pochta_deda_moroza"
   },
   {
@@ -508,7 +508,7 @@
     "name": "Праздничный бычок",
     "weight": 1440,
     "price": 2800,
-    "quantity": 1000,
+    "quantity": 4,
     "folder": "prazdnichiy_bychok"
   },
   {
@@ -516,7 +516,7 @@
     "name": "Праздник большой",
     "weight": 475,
     "price": 800,
-    "quantity": 1190,
+    "quantity": 3,
     "folder": "prazdnik_bolshoy"
   },
   {
@@ -524,7 +524,7 @@
     "name": "Праздник маленький",
     "weight": 300,
     "price": 470,
-    "quantity": 5814,
+    "quantity": 3,
     "folder": "prazdnik_malenkiy"
   },
   {
@@ -532,7 +532,7 @@
     "name": "Прогулка (Борька,Зорька)",
     "weight": 720,
     "price": 1300,
-    "quantity": 2080,
+    "quantity": 4,
     "folder": "progulka_borka_i_zorka"
   },
   {
@@ -540,7 +540,7 @@
     "name": "Ребусы-загадки",
     "weight": 340,
     "price": 640,
-    "quantity": 820,
+    "quantity": 3,
     "folder": "rebusi_zagadki"
   },
   {
@@ -548,7 +548,7 @@
     "name": "Розочка",
     "weight": 700,
     "price": 1800,
-    "quantity": 1500,
+    "quantity": 3,
     "folder": "rozochka"
   },
   {
@@ -556,7 +556,7 @@
     "name": "Рюкзак",
     "weight": 1150,
     "price": 2500,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "rukzak"
   },
   {
@@ -564,7 +564,7 @@
     "name": "С Новым годом!",
     "weight": 335,
     "price": 490,
-    "quantity": 3073,
+    "quantity": 3,
     "folder": "s_novim_godom"
   },
   {
@@ -572,7 +572,7 @@
     "name": "Сантафон",
     "weight": 430,
     "price": 800,
-    "quantity": 2100,
+    "quantity": 3,
     "folder": "santafon"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Счастливый домик",
     "weight": 435,
     "price": 700,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "schastliviy_domik"
   },
   {
@@ -588,7 +588,7 @@
     "name": "Щедрый подарок",
     "weight": 2000,
     "price": 4700,
-    "quantity": 220,
+    "quantity": 4,
     "folder": "shedriy_podarok"
   },
   {
@@ -596,7 +596,7 @@
     "name": "Сейф",
     "weight": 2060,
     "price": 5000,
-    "quantity": 500,
+    "quantity": 2,
     "folder": "seyf"
   },
   {
@@ -604,7 +604,7 @@
     "name": "Селфи",
     "weight": 1000,
     "price": 2200,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "selfi"
   },
   {
@@ -612,7 +612,7 @@
     "name": "Северная сказка",
     "weight": 360,
     "price": 635,
-    "quantity": 1984,
+    "quantity": 5,
     "folder": "severnaya_skazka"
   },
   {
@@ -620,7 +620,7 @@
     "name": "Симпотяга",
     "weight": 435,
     "price": 750,
-    "quantity": 1000,
+    "quantity": 4,
     "folder": "simpotyaga"
   },
   {
@@ -628,7 +628,7 @@
     "name": "Сказочный замок",
     "weight": 500,
     "price": 830,
-    "quantity": 800,
+    "quantity": 3,
     "folder": "skazochniy_zamok"
   },
   {
@@ -636,7 +636,7 @@
     "name": "Снегурочка",
     "weight": 640,
     "price": 1450,
-    "quantity": 3000,
+    "quantity": 3,
     "folder": "snegurochka"
   },
   {
@@ -644,7 +644,7 @@
     "name": "Снежинка большая",
     "weight": 630,
     "price": 1360,
-    "quantity": 1500,
+    "quantity": 3,
     "folder": "snezhinka_bolshaya"
   },
   {
@@ -652,7 +652,7 @@
     "name": "Снежинка маленькая",
     "weight": 360,
     "price": 575,
-    "quantity": 1027,
+    "quantity": 4,
     "folder": "snezhinka_malenkaya"
   },
   {
@@ -660,7 +660,7 @@
     "name": "Снежный фонарик",
     "weight": 390,
     "price": 650,
-    "quantity": 2000,
+    "quantity": 4,
     "folder": "snezhniy_fonarik"
   },
   {
@@ -668,7 +668,7 @@
     "name": "Теплый праздник",
     "weight": 770,
     "price": 1600,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "tepliy_prazdnik"
   },
   {
@@ -676,7 +676,7 @@
     "name": "В новогоднюю ночь",
     "weight": 1570,
     "price": 3500,
-    "quantity": 1000,
+    "quantity": 3,
     "folder": "v_novogodnuyu_noch"
   },
   {
@@ -684,7 +684,7 @@
     "name": "Веселье большое",
     "weight": 430,
     "price": 700,
-    "quantity": 620,
+    "quantity": 3,
     "folder": "veselye_bolshoe"
   },
   {
@@ -692,7 +692,7 @@
     "name": "Веселье маленькое",
     "weight": 335,
     "price": 500,
-    "quantity": 705,
+    "quantity": 3,
     "folder": "veselye_malenkoe"
   },
   {
@@ -700,7 +700,7 @@
     "name": "Веселый грузовик",
     "weight": 915,
     "price": 1800,
-    "quantity": 750,
+    "quantity": 4,
     "folder": "veselyi_gruzovik"
   },
   {
@@ -708,7 +708,7 @@
     "name": "Волшебство",
     "weight": 730,
     "price": 1355,
-    "quantity": 410,
+    "quantity": 3,
     "folder": "volshebstvo"
   },
   {
@@ -716,7 +716,7 @@
     "name": "Вязанный чемодан",
     "weight": 2300,
     "price": 5600,
-    "quantity": 500,
+    "quantity": 2,
     "folder": "vyazanniy_chamodan"
   },
   {
@@ -724,7 +724,7 @@
     "name": "Замок большой",
     "weight": 1000,
     "price": 2200,
-    "quantity": 1100,
+    "quantity": 3,
     "folder": "zamok_bolshoy"
   },
   {
@@ -732,7 +732,7 @@
     "name": "Желаем счастья",
     "weight": 725,
     "price": 1500,
-    "quantity": 850,
+    "quantity": 4,
     "folder": "zhelaem_schastya"
   },
   {
@@ -740,7 +740,7 @@
     "name": "Зимний (с лентой)",
     "weight": 500,
     "price": 900,
-    "quantity": 1000,
+    "quantity": 5,
     "folder": "zimniy_s_lentoy"
   },
   {
@@ -748,7 +748,7 @@
     "name": "Золотое сияние",
     "weight": 465,
     "price": 935,
-    "quantity": 1067,
+    "quantity": 3,
     "folder": "zolotoe_siyanie"
   },
   {
@@ -756,7 +756,7 @@
     "name": "Календарь",
     "weight": 600,
     "price": 2000,
-    "quantity": 0,
+    "quantity": 6,
     "folder": "kalendar"
   },
   {
@@ -764,7 +764,7 @@
     "name": "Рюкзак Бычок / Дед Мороз",
     "weight": 1230,
     "price": 3300,
-    "quantity": 0,
+    "quantity": 5,
     "folder": "ryukzak_bychok_ded_moroz"
   },
   {
@@ -772,7 +772,7 @@
     "name": "Лучший подарок (жесть)",
     "weight": 500,
     "price": 3200,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "luchshiy_podarok_zhest"
   },
   {
@@ -780,7 +780,7 @@
     "name": "Джип",
     "weight": 500,
     "price": 3200,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "dzhip"
   },
   {
@@ -788,7 +788,7 @@
     "name": "Портфель Борька и Зорька",
     "weight": 620,
     "price": 2000,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "portfel_borka_i_zorka"
   },
   {
@@ -796,7 +796,7 @@
     "name": "Портфель Города",
     "weight": 620,
     "price": 2000,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "portfel_goroda"
   },
   {
@@ -804,7 +804,7 @@
     "name": "Шкатулка часики",
     "weight": 470,
     "price": 1550,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "shkatulka_chasiki"
   },
   {
@@ -812,7 +812,7 @@
     "name": "Птичка на ветке",
     "weight": 600,
     "price": 1550,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "ptichka_na_vetke"
   },
   {
@@ -820,7 +820,7 @@
     "name": "Пушистики",
     "weight": 600,
     "price": 1550,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "pushistiki"
   },
   {
@@ -828,7 +828,7 @@
     "name": "Новогодний экспрес",
     "weight": 600,
     "price": 1550,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "novogodniy_ekspress"
   },
   {
@@ -836,7 +836,7 @@
     "name": "Рюкзак Лео",
     "weight": 1000,
     "price": 4500,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "ryukzak_leo"
   },
   {
@@ -844,7 +844,7 @@
     "name": "Рюкзак Сеня",
     "weight": 1000,
     "price": 4500,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "ryukzak_senya"
   },
   {
@@ -852,7 +852,7 @@
     "name": "Ёлочные игрушки",
     "weight": 1090,
     "price": 2500,
-    "quantity": 0,
+    "quantity": 5,
     "folder": "elochnye_igrushki"
   },
   {
@@ -860,7 +860,7 @@
     "name": "Лес чудес",
     "weight": 1090,
     "price": 2500,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "les_chudes"
   },
   {
@@ -868,7 +868,7 @@
     "name": "Окна",
     "weight": 1090,
     "price": 2500,
-    "quantity": 0,
+    "quantity": 3,
     "folder": "okna"
   }
 ]

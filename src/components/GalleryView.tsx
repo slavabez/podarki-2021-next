@@ -1,6 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
-// @ts-ignore
+import Image from "next/image";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
 import { PresentGalleryItem } from "./GallerySection";
@@ -39,9 +38,9 @@ const MiniImageWrapper = styled.div`
   overflow: hidden;
   cursor: pointer;
 
-  &:nth-child(n + 4) {
+  /*&:nth-child(n + 4) {
     display: none;
-  }
+  }*/
 `;
 
 const MetadataContainer = styled.div`
@@ -85,12 +84,9 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
       <TotalText>Показано подарков: {presentsToShow.length}</TotalText>
       <GalleryWrapper>
         {presentsToShow.map((id) => {
-          if (id.number === -1) {
-            console.error(`Image not found - ${id.relativePath}`);
-          }
           const description = `Новогодний подарок "${id.name}", ${id.weight}гр за ${id.price} тенге.`;
           return (
-            <GalleryItemCard key={id.relativePath}>
+            <GalleryItemCard key={id.folder}>
               <SimpleReactLightbox>
                 <SRLWrapper
                   options={{
@@ -100,16 +96,33 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                   }}
                 >
                   <CoverImageWrapper>
-                    <Img
-                      key={id.relativePath}
-                      fluid={id.coverImage.fluid}
-                      alt={description}
-                    />
+                    <a
+                      href={`/images/presents/${id.folder}/1.jpg`}
+                      data-attribute="SRL"
+                    >
+                      <Image
+                        key={id.folder}
+                        src={`/images/presents/${id.folder}/thumb/1.jpg`}
+                        width={220}
+                        height={330}
+                        alt={description}
+                      />
+                    </a>
                   </CoverImageWrapper>
                   <OtherImageContainer>
-                    {id?.images?.map((imgData) => (
-                      <MiniImageWrapper key={imgData.fluid.src}>
-                        <Img fluid={imgData.fluid} alt={description} />
+                    {id?.images?.map((filename) => (
+                      <MiniImageWrapper key={`${id.folder}-${filename}`}>
+                        <a
+                          href={`/images/presents/${id.folder}/${filename}`}
+                          data-attribute="SRL"
+                        >
+                          <Image
+                            src={`/images/presents/${id.folder}/thumb/${filename}`}
+                            width={70}
+                            height={70}
+                            alt={description}
+                          />
+                        </a>
                       </MiniImageWrapper>
                     ))}
                   </OtherImageContainer>

@@ -4,8 +4,7 @@ import Image from "next/image";
 import GalleryView from "./GalleryView";
 
 export interface PresentGalleryItem {
-  relativePath?: string;
-  coverImage?: any;
+  folder?: string;
   images?: any[];
   number: number;
   name?: string;
@@ -313,7 +312,7 @@ const GallerySection: React.FC<{
         </BannerAndButtons>
       </SettingsSection>
 
-      {/*<GalleryView presentsToShow={presentsToShow} />*/}
+      <GalleryView presentsToShow={presentsToShow} />
     </Section>
   );
 };

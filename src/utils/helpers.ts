@@ -3,59 +3,22 @@ import ResizeObserver from "resize-observer-polyfill";
 import data from "../../public/files/presents_data.json";
 import { PresentGalleryItem } from "../components/GallerySection";
 
-export const dissectPresentImages: (
-  rawGraphqlData: any
-) => PresentGalleryItem[] = (rawGraphqlData) => {
+export const extractPresentsData: () => PresentGalleryItem[] = () => {
   // Create a map for storing the image data
-  const presentsMap = new Map<string, PresentGalleryItem>();
   const rawJsonData = getPresentsData();
-  for (const imageElement of rawGraphqlData) {
-    // First, get the folder name
-    const folderName = imageElement.relativePath.split(`/`)[0];
-    const fileName = imageElement.relativePath.split(`/`)[1];
-    if (presentsMap.has(folderName)) {
-      // Add image to the map element, save image
-      const existingElement: PresentGalleryItem = presentsMap.get(
-        folderName
-      ) || { number: -1 };
-      let coverImage = undefined;
-      let image = undefined;
-      if (fileName === `1.jpg`) {
-        coverImage = imageElement.childImageSharp;
-      } else {
-        image = imageElement.childImageSharp;
-      }
-      if (coverImage) existingElement.coverImage = coverImage;
-      if (image) existingElement.images?.push(image);
-    } else {
-      // Create a new map element
-      // Determine if the image is a cover image
-      let coverImage = undefined;
-      let image = undefined;
-      if (fileName === `1.jpg`) {
-        coverImage = imageElement.childImageSharp;
-      } else {
-        image = imageElement.childImageSharp;
-      }
-      const newElement: PresentGalleryItem = {
-        relativePath: folderName,
-        images: [],
-        number: -1,
-      };
-      if (coverImage) newElement.coverImage = coverImage;
-      if (image) newElement.images?.push(image);
-      // Find and set the metadata (price, name, etc)
-      const metaInfo = rawJsonData.find((i) => i.folder === folderName);
-      newElement.name = metaInfo?.name;
-      newElement.number = metaInfo?.number || -1;
-      newElement.price = metaInfo?.price;
-      newElement.weight = metaInfo?.weight;
-      newElement.quantity = metaInfo?.quantity;
-      presentsMap.set(folderName, newElement);
+  const extracted: PresentGalleryItem[] = rawJsonData.map((orig: any) => {
+    // Fill up image array with image file names
+    const totalImages = Number.parseInt(orig.quantity) || 1;
+    let fileNames: string[] = [];
+    for (let i = 2; i <= totalImages; i++) {
+      fileNames.push(`${i}.jpg`);
     }
-  }
-  const arr = Array.from(presentsMap.values());
-  return arr.sort((a, b) => a.number - b.number);
+    return {
+      ...orig,
+      images: fileNames,
+    };
+  });
+  return extracted.sort((a, b) => a.number - b.number);
 };
 
 interface JsonPresentItem {
