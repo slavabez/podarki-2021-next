@@ -1,0 +1,874 @@
+[
+  {
+    "number": 39,
+    "name": "Акробаты",
+    "weight": 475,
+    "price": 1000,
+    "quantity": 2000,
+    "folder": "akrobati"
+  },
+  {
+    "number": 41,
+    "name": "Бандероль",
+    "weight": 640,
+    "price": 1200,
+    "quantity": 2000,
+    "folder": "banderol"
+  },
+  {
+    "number": 11,
+    "name": "Бумажные снежинки",
+    "weight": 330,
+    "price": 500,
+    "quantity": 153,
+    "folder": "bumazhnie_snezhinki"
+  },
+  {
+    "number": 57,
+    "name": "Чудеса случаются",
+    "weight": 590,
+    "price": 1300,
+    "quantity": 1000,
+    "folder": "chudesa_sluchayutsa"
+  },
+  {
+    "number": 55,
+    "name": "Дед Мороз",
+    "weight": 640,
+    "price": 1450,
+    "quantity": 3000,
+    "folder": "ded_moroz"
+  },
+  {
+    "number": 54,
+    "name": "Дед Мороз на санях,Коровка",
+    "weight": 720,
+    "price": 1785,
+    "quantity": 1200,
+    "folder": "ded_moroz_na_sanyah"
+  },
+  {
+    "number": 85,
+    "name": "Дед Мороз с часами",
+    "weight": 780,
+    "price": 1800,
+    "quantity": 1045,
+    "folder": "ded_moroz_s_chasami"
+  },
+  {
+    "number": 91,
+    "name": "Деревянная посылка",
+    "weight": 2000,
+    "price": 4500,
+    "quantity": 370,
+    "folder": "derevannaya_posilka"
+  },
+  {
+    "number": 7,
+    "name": "Детки и Снеговики",
+    "weight": 230,
+    "price": 400,
+    "quantity": 1525,
+    "folder": "detki_i_snegoviki"
+  },
+  {
+    "number": 17,
+    "name": "Друзья",
+    "weight": 350,
+    "price": 580,
+    "quantity": 1325,
+    "folder": "druzya"
+  },
+  {
+    "number": 35,
+    "name": "Эко сумочка",
+    "weight": 420,
+    "price": 800,
+    "quantity": 136,
+    "folder": "eko_sumochka"
+  },
+  {
+    "number": 51,
+    "name": "Елка",
+    "weight": 700,
+    "price": 1800,
+    "quantity": 2000,
+    "folder": "elka"
+  },
+  {
+    "number": 22,
+    "name": "Елочка",
+    "weight": 390,
+    "price": 650,
+    "quantity": 1000,
+    "folder": "elochka"
+  },
+  {
+    "number": 6,
+    "name": "Ежик Тим",
+    "weight": 200,
+    "price": 355,
+    "quantity": 1500,
+    "folder": "ezhik_tim"
+  },
+  {
+    "number": 14,
+    "name": "Гаврюша (кроссворд)",
+    "weight": 450,
+    "price": 800,
+    "quantity": 2000,
+    "folder": "gavryusha_krossvord"
+  },
+  {
+    "number": 5,
+    "name": "Гаврюша",
+    "weight": 200,
+    "price": 355,
+    "quantity": 1500,
+    "folder": "gavryusha"
+  },
+  {
+    "number": 37,
+    "name": "Город гномов",
+    "weight": 460,
+    "price": 900,
+    "quantity": 274,
+    "folder": "gorod_gnomov"
+  },
+  {
+    "number": 65,
+    "name": "Грузовик С Новым Годом!",
+    "weight": 1000,
+    "price": 2100,
+    "quantity": 1000,
+    "folder": "gruzovik_s_novim_godom"
+  },
+  {
+    "number": 78,
+    "name": "Книга догони Деда Мороза",
+    "weight": 600,
+    "price": 1300,
+    "quantity": 555,
+    "folder": "kniga_dogoni_deda_moroza"
+  },
+  {
+    "number": 77,
+    "name": "Книга Игра",
+    "weight": 600,
+    "price": 1300,
+    "quantity": 500,
+    "folder": "kniga_igra"
+  },
+  {
+    "number": 82,
+    "name": "Книга Космос",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 300,
+    "folder": "kniga_kosmos"
+  },
+  {
+    "number": 47,
+    "name": "Книга Космос мал.",
+    "weight": 550,
+    "price": 1100,
+    "quantity": 500,
+    "folder": "kniga_kosmos_malenkiy"
+  },
+  {
+    "number": 48,
+    "name": "Книга Новогодние рецепты мал.",
+    "weight": 550,
+    "price": 1100,
+    "quantity": 500,
+    "folder": "kniga_novogodnie_recepti_deda_moroza"
+  },
+  {
+    "number": 46,
+    "name": "Книга Новогодний сувенир",
+    "weight": 530,
+    "price": 1000,
+    "quantity": 600,
+    "folder": "kniga_novogodniy_suvenir"
+  },
+  {
+    "number": 87,
+    "name": "Книга Профессий",
+    "weight": 600,
+    "price": 1125,
+    "quantity": 500,
+    "folder": "kniga_professiy"
+  },
+  {
+    "number": 68,
+    "name": "Книга Приключения с гномами",
+    "weight": 1025,
+    "price": 2200,
+    "quantity": 1000,
+    "folder": "kniga_priklucheniya_s_gnomami"
+  },
+  {
+    "number": 74,
+    "name": "Книга с Космо-Новым годом!",
+    "weight": 1170,
+    "price": 2700,
+    "quantity": 800,
+    "folder": "kniga_s_kosmo_novim_godom"
+  },
+  {
+    "number": 45,
+    "name": "Книга С Новым Годом!",
+    "weight": 530,
+    "price": 1000,
+    "quantity": 600,
+    "folder": "kniga_s_novim_godom"
+  },
+  {
+    "number": 79,
+    "name": "Книга Сказочная дружина",
+    "weight": 1000,
+    "price": 2400,
+    "quantity": 670,
+    "folder": "kniga_skazochnaya_druzhina"
+  },
+  {
+    "number": 84,
+    "name": "Книга Снежная королева",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 214,
+    "folder": "kniga_snezhnaya_koroleva"
+  },
+  {
+    "number": 80,
+    "name": "Книга Традиции  Нового года",
+    "weight": 1030,
+    "price": 2500,
+    "quantity": 300,
+    "folder": "kniga_tradicii_novogo_goda"
+  },
+  {
+    "number": 81,
+    "name": "Книга Удивительное рядом",
+    "weight": 1055,
+    "price": 2600,
+    "quantity": 300,
+    "folder": "kniga_udivitelnoe_ryadom"
+  },
+  {
+    "number": 44,
+    "name": "Книга Виммельбух",
+    "weight": 530,
+    "price": 1000,
+    "quantity": 600,
+    "folder": "kniga_vimmelbuh"
+  },
+  {
+    "number": 83,
+    "name": "Книга Зоопарк",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 100,
+    "folder": "kniga_zoopark"
+  },
+  {
+    "number": 58,
+    "name": "Колокол",
+    "weight": 640,
+    "price": 1250,
+    "quantity": 1100,
+    "folder": "kolokol"
+  },
+  {
+    "number": 89,
+    "name": "Колокол с часами",
+    "weight": 2000,
+    "price": 4600,
+    "quantity": 600,
+    "folder": "kolokol_s_chasami"
+  },
+  {
+    "number": 1,
+    "name": "Конфетка",
+    "weight": 250,
+    "price": 365,
+    "quantity": 2535,
+    "folder": "konfetka"
+  },
+  {
+    "number": 63,
+    "name": "Кормушка",
+    "weight": 990,
+    "price": 2000,
+    "quantity": 2000,
+    "folder": "kormushka"
+  },
+  {
+    "number": 52,
+    "name": "Ковбой",
+    "weight": 815,
+    "price": 2000,
+    "quantity": 1500,
+    "folder": "kovboy"
+  },
+  {
+    "number": 9,
+    "name": "Крепкая дружба",
+    "weight": 285,
+    "price": 440,
+    "quantity": 1505,
+    "folder": "krepkaya_druzhba"
+  },
+  {
+    "number": 27,
+    "name": "Кубик большой",
+    "weight": 400,
+    "price": 660,
+    "quantity": 1100,
+    "folder": "kubik_bolshoy"
+  },
+  {
+    "number": 2,
+    "name": "Кубик маленький",
+    "weight": 160,
+    "price": 255,
+    "quantity": 2235,
+    "folder": "kubik_malenkiy"
+  },
+  {
+    "number": 42,
+    "name": "Лапландия",
+    "weight": 665,
+    "price": 1250,
+    "quantity": 1032,
+    "folder": "laplandiya"
+  },
+  {
+    "number": 25,
+    "name": "Лапушка",
+    "weight": 435,
+    "price": 750,
+    "quantity": 1000,
+    "folder": "lapushka"
+  },
+  {
+    "number": 61,
+    "name": "Ларец с часами",
+    "weight": 730,
+    "price": 1355,
+    "quantity": 1000,
+    "folder": "larec_s_chasami"
+  },
+  {
+    "number": 34,
+    "name": "Лесные непоседы",
+    "weight": 400,
+    "price": 770,
+    "quantity": 1450,
+    "folder": "lesnye_neposedy"
+  },
+  {
+    "number": 88,
+    "name": "Лучший подарок",
+    "weight": 1515,
+    "price": 3500,
+    "quantity": 600,
+    "folder": "luchshiy_podarok"
+  },
+  {
+    "number": 8,
+    "name": "Недорогой подарок",
+    "weight": 300,
+    "price": 450,
+    "quantity": 4417,
+    "folder": "nedorogoy_podarok"
+  },
+  {
+    "number": 90,
+    "name": "Новогоднее путешествие",
+    "weight": 1200,
+    "price": 3000,
+    "quantity": 250,
+    "folder": "novogodnee_puteshestvie"
+  },
+  {
+    "number": 33,
+    "name": "Ночной город",
+    "weight": 435,
+    "price": 850,
+    "quantity": 1050,
+    "folder": "nochnoy_gorod"
+  },
+  {
+    "number": 73,
+    "name": "Новогодняя кладовка",
+    "weight": 1550,
+    "price": 3500,
+    "quantity": 1045,
+    "folder": "novogodnaya_kladovka"
+  },
+  {
+    "number": 69,
+    "name": "Новогодняя юрта",
+    "weight": 825,
+    "price": 1700,
+    "quantity": 2000,
+    "folder": "novogodnaya_yurta"
+  },
+  {
+    "number": 30,
+    "name": "Новогоднее чудо",
+    "weight": 460,
+    "price": 780,
+    "quantity": 1135,
+    "folder": "novogodnee_chudo"
+  },
+  {
+    "number": 70,
+    "name": "Новогоднее кафе",
+    "weight": 1250,
+    "price": 2900,
+    "quantity": 1000,
+    "folder": "novogodnee_kafe"
+  },
+  {
+    "number": 32,
+    "name": "Новогоднее веселье",
+    "weight": 475,
+    "price": 800,
+    "quantity": 1170,
+    "folder": "novogodnee_vesele"
+  },
+  {
+    "number": 21,
+    "name": "Новогодние каникулы",
+    "weight": 360,
+    "price": 600,
+    "quantity": 2200,
+    "folder": "novogodnie_kanikuli"
+  },
+  {
+    "number": 3,
+    "name": "Новогодний домик",
+    "weight": 210,
+    "price": 335,
+    "quantity": 4757,
+    "folder": "novogodniy_domik"
+  },
+  {
+    "number": 40,
+    "name": "Новогодний колпак",
+    "weight": 590,
+    "price": 1100,
+    "quantity": 1500,
+    "folder": "novogodniy_kolpak"
+  },
+  {
+    "number": 66,
+    "name": "Новогодний фонарь",
+    "weight": 785,
+    "price": 1700,
+    "quantity": 1000,
+    "folder": "novogodniy_fonar"
+  },
+  {
+    "number": 75,
+    "name": "Новогодние рецепты ДМ",
+    "weight": 1170,
+    "price": 2700,
+    "quantity": 700,
+    "folder": "novogodniye_recepti_deda_moroza"
+  },
+  {
+    "number": 59,
+    "name": "Новогодняя сказка",
+    "weight": 750,
+    "price": 1520,
+    "quantity": 2000,
+    "folder": "novogodnaya_skazka"
+  },
+  {
+    "number": 20,
+    "name": "Письмо от Деда Мороза",
+    "weight": 400,
+    "price": 740,
+    "quantity": 710,
+    "folder": "pismo_ot_ded_moroza"
+  },
+  {
+    "number": 18,
+    "name": "Почта Деда Мороза",
+    "weight": 450,
+    "price": 800,
+    "quantity": 2000,
+    "folder": "pochta_deda_moroza"
+  },
+  {
+    "number": 86,
+    "name": "Праздничный бычок",
+    "weight": 1440,
+    "price": 2800,
+    "quantity": 1000,
+    "folder": "prazdnichiy_bychok"
+  },
+  {
+    "number": 31,
+    "name": "Праздник большой",
+    "weight": 475,
+    "price": 800,
+    "quantity": 1190,
+    "folder": "prazdnik_bolshoy"
+  },
+  {
+    "number": 4,
+    "name": "Праздник маленький",
+    "weight": 300,
+    "price": 470,
+    "quantity": 5814,
+    "folder": "prazdnik_malenkiy"
+  },
+  {
+    "number": 43,
+    "name": "Прогулка (Борька,Зорька)",
+    "weight": 720,
+    "price": 1300,
+    "quantity": 2080,
+    "folder": "progulka_borka_i_zorka"
+  },
+  {
+    "number": 19,
+    "name": "Ребусы-загадки",
+    "weight": 340,
+    "price": 640,
+    "quantity": 820,
+    "folder": "rebusi_zagadki"
+  },
+  {
+    "number": 50,
+    "name": "Розочка",
+    "weight": 700,
+    "price": 1800,
+    "quantity": 1500,
+    "folder": "rozochka"
+  },
+  {
+    "number": 64,
+    "name": "Рюкзак",
+    "weight": 1150,
+    "price": 2500,
+    "quantity": 2000,
+    "folder": "rukzak"
+  },
+  {
+    "number": 13,
+    "name": "С Новым годом!",
+    "weight": 335,
+    "price": 490,
+    "quantity": 3073,
+    "folder": "s_novim_godom"
+  },
+  {
+    "number": 16,
+    "name": "Сантафон",
+    "weight": 430,
+    "price": 800,
+    "quantity": 2100,
+    "folder": "santafon"
+  },
+  {
+    "number": 26,
+    "name": "Счастливый домик",
+    "weight": 435,
+    "price": 700,
+    "quantity": 2000,
+    "folder": "schastliviy_domik"
+  },
+  {
+    "number": 93,
+    "name": "Щедрый подарок",
+    "weight": 2000,
+    "price": 4700,
+    "quantity": 220,
+    "folder": "shedriy_podarok"
+  },
+  {
+    "number": 92,
+    "name": "Сейф",
+    "weight": 2060,
+    "price": 5000,
+    "quantity": 500,
+    "folder": "seyf"
+  },
+  {
+    "number": 53,
+    "name": "Селфи",
+    "weight": 1000,
+    "price": 2200,
+    "quantity": 1000,
+    "folder": "selfi"
+  },
+  {
+    "number": 15,
+    "name": "Северная сказка",
+    "weight": 360,
+    "price": 635,
+    "quantity": 1984,
+    "folder": "severnaya_skazka"
+  },
+  {
+    "number": 24,
+    "name": "Симпотяга",
+    "weight": 435,
+    "price": 750,
+    "quantity": 1000,
+    "folder": "simpotyaga"
+  },
+  {
+    "number": 29,
+    "name": "Сказочный замок",
+    "weight": 500,
+    "price": 830,
+    "quantity": 800,
+    "folder": "skazochniy_zamok"
+  },
+  {
+    "number": 56,
+    "name": "Снегурочка",
+    "weight": 640,
+    "price": 1450,
+    "quantity": 3000,
+    "folder": "snegurochka"
+  },
+  {
+    "number": 49,
+    "name": "Снежинка большая",
+    "weight": 630,
+    "price": 1360,
+    "quantity": 1500,
+    "folder": "snezhinka_bolshaya"
+  },
+  {
+    "number": 12,
+    "name": "Снежинка маленькая",
+    "weight": 360,
+    "price": 575,
+    "quantity": 1027,
+    "folder": "snezhinka_malenkaya"
+  },
+  {
+    "number": 23,
+    "name": "Снежный фонарик",
+    "weight": 390,
+    "price": 650,
+    "quantity": 2000,
+    "folder": "snezhniy_fonarik"
+  },
+  {
+    "number": 67,
+    "name": "Теплый праздник",
+    "weight": 770,
+    "price": 1600,
+    "quantity": 1000,
+    "folder": "tepliy_prazdnik"
+  },
+  {
+    "number": 76,
+    "name": "В новогоднюю ночь",
+    "weight": 1570,
+    "price": 3500,
+    "quantity": 1000,
+    "folder": "v_novogodnuyu_noch"
+  },
+  {
+    "number": 28,
+    "name": "Веселье большое",
+    "weight": 430,
+    "price": 700,
+    "quantity": 620,
+    "folder": "veselye_bolshoe"
+  },
+  {
+    "number": 10,
+    "name": "Веселье маленькое",
+    "weight": 335,
+    "price": 500,
+    "quantity": 705,
+    "folder": "veselye_malenkoe"
+  },
+  {
+    "number": 62,
+    "name": "Веселый грузовик",
+    "weight": 915,
+    "price": 1800,
+    "quantity": 750,
+    "folder": "veselyi_gruzovik"
+  },
+  {
+    "number": 60,
+    "name": "Волшебство",
+    "weight": 730,
+    "price": 1355,
+    "quantity": 410,
+    "folder": "volshebstvo"
+  },
+  {
+    "number": 94,
+    "name": "Вязанный чемодан",
+    "weight": 2300,
+    "price": 5600,
+    "quantity": 500,
+    "folder": "vyazanniy_chamodan"
+  },
+  {
+    "number": 71,
+    "name": "Замок большой",
+    "weight": 1000,
+    "price": 2200,
+    "quantity": 1100,
+    "folder": "zamok_bolshoy"
+  },
+  {
+    "number": 72,
+    "name": "Желаем счастья",
+    "weight": 725,
+    "price": 1500,
+    "quantity": 850,
+    "folder": "zhelaem_schastya"
+  },
+  {
+    "number": 36,
+    "name": "Зимний (с лентой)",
+    "weight": 500,
+    "price": 900,
+    "quantity": 1000,
+    "folder": "zimniy_s_lentoy"
+  },
+  {
+    "number": 38,
+    "name": "Золотое сияние",
+    "weight": 465,
+    "price": 935,
+    "quantity": 1067,
+    "folder": "zolotoe_siyanie"
+  },
+  {
+    "number": 95,
+    "name": "Календарь",
+    "weight": 600,
+    "price": 2000,
+    "quantity": 0,
+    "folder": "kalendar"
+  },
+  {
+    "number": 96,
+    "name": "Рюкзак Бычок / Дед Мороз",
+    "weight": 1230,
+    "price": 3300,
+    "quantity": 0,
+    "folder": "ryukzak_bychok_ded_moroz"
+  },
+  {
+    "number": 97,
+    "name": "Лучший подарок (жесть)",
+    "weight": 500,
+    "price": 3200,
+    "quantity": 0,
+    "folder": "luchshiy_podarok_zhest"
+  },
+  {
+    "number": 98,
+    "name": "Джип",
+    "weight": 500,
+    "price": 3200,
+    "quantity": 0,
+    "folder": "dzhip"
+  },
+  {
+    "number": 99,
+    "name": "Портфель Борька и Зорька",
+    "weight": 620,
+    "price": 2000,
+    "quantity": 0,
+    "folder": "portfel_borka_i_zorka"
+  },
+  {
+    "number": 100,
+    "name": "Портфель Города",
+    "weight": 620,
+    "price": 2000,
+    "quantity": 0,
+    "folder": "portfel_goroda"
+  },
+  {
+    "number": 101,
+    "name": "Шкатулка часики",
+    "weight": 470,
+    "price": 1550,
+    "quantity": 0,
+    "folder": "shkatulka_chasiki"
+  },
+  {
+    "number": 102,
+    "name": "Птичка на ветке",
+    "weight": 600,
+    "price": 1550,
+    "quantity": 0,
+    "folder": "ptichka_na_vetke"
+  },
+  {
+    "number": 103,
+    "name": "Пушистики",
+    "weight": 600,
+    "price": 1550,
+    "quantity": 0,
+    "folder": "pushistiki"
+  },
+  {
+    "number": 104,
+    "name": "Новогодний экспрес",
+    "weight": 600,
+    "price": 1550,
+    "quantity": 0,
+    "folder": "novogodniy_ekspress"
+  },
+  {
+    "number": 105,
+    "name": "Рюкзак Лео",
+    "weight": 1000,
+    "price": 4500,
+    "quantity": 0,
+    "folder": "ryukzak_leo"
+  },
+  {
+    "number": 106,
+    "name": "Рюкзак Сеня",
+    "weight": 1000,
+    "price": 4500,
+    "quantity": 0,
+    "folder": "ryukzak_senya"
+  },
+  {
+    "number": 107,
+    "name": "Ёлочные игрушки",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 0,
+    "folder": "elochnye_igrushki"
+  },
+  {
+    "number": 108,
+    "name": "Лес чудес",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 0,
+    "folder": "les_chudes"
+  },
+  {
+    "number": 109,
+    "name": "Окна",
+    "weight": 1090,
+    "price": 2500,
+    "quantity": 0,
+    "folder": "okna"
+  }
+]
