@@ -1,5 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import React from "react";
+import * as Sentry from "@sentry/react";
 import Layout from "../components/Layout";
 import { NextWebVitalsMetric } from "next/app";
 
@@ -163,15 +164,22 @@ export function reportWebVitals({ label, value, id }: NextWebVitalsMetric) {
   }
 }
 
+Sentry.init({
+  dsn:
+    "https://132b3113300544e1b4fd1b2c9f409255@o217771.ingest.sentry.io/5505464",
+});
+
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ThemeProvider>
+      <Sentry.ErrorBoundary>
+        <GlobalStyle />
+        <ThemeProvider theme={theme}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ThemeProvider>
+      </Sentry.ErrorBoundary>
     </>
   );
 }
