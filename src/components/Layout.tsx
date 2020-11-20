@@ -35,11 +35,12 @@ const Header = styled.header`
   }
 `;
 
-const SiteTitle = styled.span`
+const SiteTitle = styled.a`
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 3rem;
   color: white;
+  text-decoration: none;
 
   @media (min-width: 500px) {
     font-size: 3rem;
@@ -96,7 +97,7 @@ const Layout: React.FC = (props) => {
   return (
     <SiteWrapper>
       <Header>
-        <SiteTitle>Сказка</SiteTitle>
+        <SiteTitle href="/">Сказка</SiteTitle>
         <HeaderLinks>
           <HeaderLink href="/files/skazka-podarki-2021-compressed.pdf">
             <HeaderLinkIcon

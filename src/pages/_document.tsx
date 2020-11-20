@@ -97,7 +97,6 @@ export default class MyDocument extends Document {
           `,
             }}
           />
-          <title></title>
         </Head>
         <body>
           <Main />

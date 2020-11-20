@@ -3,6 +3,7 @@ import Image from "next/image";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
 import { PresentGalleryItem } from "./GallerySection";
+import ScrollToTop from "react-scroll-up";
 
 const GalleryWrapper = styled.div`
   display: grid;
@@ -72,6 +73,10 @@ const TotalText = styled.p`
   margin-bottom: 1rem;
 `;
 
+const BlurryImage = styled.img`
+  
+`;
+
 const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
   presentsToShow,
 }) => {
@@ -90,6 +95,12 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                       captionFontFamily: "Roboto, sans-serif",
                     },
                   }}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
                 >
                   <CoverImageWrapper>
                     <a
@@ -98,7 +109,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                     >
                       <Image
                         key={item.folder}
-                        src={`/images/presents/${item.folder}/thumb/1.jpg`}
+                        src={`/images/presents/${item.folder}/1.jpg`}
                         width={220}
                         height={330}
                         alt={description}
@@ -133,6 +144,9 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
             </GalleryItemCard>
           );
         })}
+        <ScrollToTop showUnder={1000} style={{ right: 10 }}>
+          <BlurryImage width={40} height={40} alt="Вверх" src="/svgs/up-arrow.svg" />
+        </ScrollToTop>
       </GalleryWrapper>
     </>
   );
