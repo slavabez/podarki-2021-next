@@ -73,8 +73,10 @@ const TotalText = styled.p`
   margin-bottom: 1rem;
 `;
 
-const BlurryImage = styled.img`
-  
+const ScrollToTopImage = styled.img`
+  @media(min-width: 768px) {
+    display: none;
+  }
 `;
 
 const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
@@ -113,7 +115,6 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                         width={220}
                         height={330}
                         alt={description}
-                        loading="eager"
                       />
                     </a>
                   </CoverImageWrapper>
@@ -144,8 +145,8 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
             </GalleryItemCard>
           );
         })}
-        <ScrollToTop showUnder={1000} style={{ right: 10 }}>
-          <BlurryImage width={40} height={40} alt="Вверх" src="/svgs/up-arrow.svg" />
+        <ScrollToTop showUnder={1000} style={{ right: "calc((100vw - (220px + 80px) ) / 4)" }}>
+          <ScrollToTopImage width={40} height={40} alt="Вверх" src="/svgs/up-arrow.svg" />
         </ScrollToTop>
       </GalleryWrapper>
     </>
