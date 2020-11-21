@@ -74,7 +74,7 @@ const TotalText = styled.p`
 `;
 
 const ScrollToTopImage = styled.img`
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;
@@ -101,7 +101,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                    justifyContent: "center"
+                    justifyContent: "center",
                   }}
                 >
                   <CoverImageWrapper>
@@ -125,7 +125,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                           href={`/images/presents/${item.folder}/${filename}`}
                           data-attribute="SRL"
                         >
-                          <img
+                          <Image
                             src={`/images/presents/${item.folder}/thumb/${filename}`}
                             width={70}
                             height={70}
@@ -145,8 +145,16 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
             </GalleryItemCard>
           );
         })}
-        <ScrollToTop showUnder={1000} style={{ right: "calc((100vw - (220px + 80px) ) / 4)" }}>
-          <ScrollToTopImage width={40} height={40} alt="Вверх" src="/svgs/up-arrow.svg" />
+        <ScrollToTop
+          showUnder={1000}
+          style={{ right: "calc((100vw - (220px + 80px) ) / 4)" }}
+        >
+          <ScrollToTopImage
+            width={40}
+            height={40}
+            alt="Вверх"
+            src="/svgs/up-arrow.svg"
+          />
         </ScrollToTop>
       </GalleryWrapper>
     </>

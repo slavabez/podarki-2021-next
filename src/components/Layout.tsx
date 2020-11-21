@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import styled from "styled-components";
 import SiteFooter from "./SiteFooter";
 
@@ -97,7 +98,9 @@ const Layout: React.FC = (props) => {
   return (
     <SiteWrapper>
       <Header>
-        <SiteTitle href="/">Сказка</SiteTitle>
+        <Link href="/" passHref>
+          <SiteTitle>Сказка</SiteTitle>
+        </Link>
         <HeaderLinks>
           <HeaderLink href="/files/skazka-podarki-2021-compressed.pdf">
             <HeaderLinkIcon
