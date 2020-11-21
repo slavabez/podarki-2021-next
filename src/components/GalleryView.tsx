@@ -125,7 +125,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                           href={`/images/presents/${item.folder}/${filename}`}
                           data-attribute="SRL"
                         >
-                          <Image
+                          <img
                             src={`/images/presents/${item.folder}/thumb/${filename}`}
                             width={70}
                             height={70}
