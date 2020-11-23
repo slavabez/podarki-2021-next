@@ -115,6 +115,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                         width={220}
                         height={330}
                         alt={description}
+                        loading="eager"
                       />
                     </a>
                   </CoverImageWrapper>
