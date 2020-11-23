@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
 import { PresentGalleryItem } from "./GallerySection";
@@ -64,7 +63,7 @@ const Weight = styled.span`
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  color: #969696;
+  color: #4b4b4b;
   padding: 0.5rem 0;
 `;
 
@@ -109,9 +108,9 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                       href={`/images/presents/${item.folder}/1.jpg`}
                       data-attribute="SRL"
                     >
-                      <Image
+                      <img
                         key={item.folder}
-                        src={`/images/presents/${item.folder}/1.jpg`}
+                        src={`/images/presents/${item.folder}/thumb/1.jpg`}
                         width={220}
                         height={330}
                         alt={description}
