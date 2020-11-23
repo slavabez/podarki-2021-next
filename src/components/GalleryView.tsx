@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
 import { PresentGalleryItem } from "./GallerySection";
@@ -108,7 +109,7 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
                       href={`/images/presents/${item.folder}/1.jpg`}
                       data-attribute="SRL"
                     >
-                      <img
+                      <Image
                         key={item.folder}
                         src={`/images/presents/${item.folder}/thumb/1.jpg`}
                         width={220}

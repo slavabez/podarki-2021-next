@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "analyze": "ANALYZE=true next build",
     "start": "next start",
     "test": "jest"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^10.0.2",
     "@sentry/react": "^5.27.4",
     "next": "10.0.2",
     "next-offline": "^5.0.3",
