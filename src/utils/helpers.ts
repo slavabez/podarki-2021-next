@@ -1,5 +1,5 @@
 import data from "../../public/files/presents_data.json";
-import {PresentGalleryItem} from "../components/GallerySection";
+import { PresentGalleryItem } from "../components/GallerySection";
 
 export const extractPresentsData: () => PresentGalleryItem[] = () => {
   // Create a map for storing the image data
