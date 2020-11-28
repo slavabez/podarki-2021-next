@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import styled from "styled-components";
@@ -83,36 +83,43 @@ const ScrollToTopImage = styled.img`
 const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
   presentsToShow,
 }) => {
-  const step = 6;
-  const [hasMore, setHasMore] = useState(false);
+  const step = 12;
+  const [hasMore, setHasMore] = useState(true);
   const [activeItems, setActiveItems] = useState(presentsToShow.slice(0, step));
 
   const loadMore = () => {
-    console.log(`loading more`);
     if (activeItems.length >= presentsToShow.length) {
       setHasMore(false);
       return;
     }
     const nextStartItem = activeItems.length;
+    // If next section exceeds the list, shorten it to match
     const nextEndItem =
       nextStartItem + step >= presentsToShow.length - 1
-        ? presentsToShow.length - 1
+        ? presentsToShow.length
         : nextStartItem + step;
     setActiveItems(
       activeItems.concat(presentsToShow.slice(nextStartItem, nextEndItem))
     );
   };
 
+  // Make sure to change when the parent element gives us different presents
+  useEffect(() => {
+    setActiveItems(presentsToShow.slice(0, step));
+    setHasMore(true);
+  }, [presentsToShow]);
+
   return (
     <>
       <TotalText>Показано подарков: {presentsToShow.length}</TotalText>
-      <GalleryWrapper>
-        <InfiniteScroll
-          next={loadMore}
-          hasMore={hasMore}
-          loader={<h4>loading...</h4>}
-          dataLength={activeItems.length}
-        >
+      <InfiniteScroll
+        next={loadMore}
+        hasMore={hasMore}
+        loader={<></>}
+        dataLength={activeItems.length}
+        scrollableTarget={<></>}
+      >
+        <GalleryWrapper>
           {activeItems.map((item) => {
             const description = `Новогодний подарок "${item.name}", ${item.weight}гр за ${item.price} тенге.`;
             return (
@@ -174,20 +181,20 @@ const GalleryView: React.FC<{ presentsToShow: PresentGalleryItem[] }> = ({
               </GalleryItemCard>
             );
           })}
-        </InfiniteScroll>
+        </GalleryWrapper>
+      </InfiniteScroll>
 
-        <ScrollToTop
-          showUnder={1000}
-          style={{ right: "calc((100vw - (220px + 80px) ) / 4)" }}
-        >
-          <ScrollToTopImage
-            width={40}
-            height={40}
-            alt="Вверх"
-            src="/svgs/up-arrow.svg"
-          />
-        </ScrollToTop>
-      </GalleryWrapper>
+      <ScrollToTop
+        showUnder={1000}
+        style={{ right: "calc((100vw - (220px + 80px) ) / 4)" }}
+      >
+        <ScrollToTopImage
+          width={40}
+          height={40}
+          alt="Вверх"
+          src="/svgs/up-arrow.svg"
+        />
+      </ScrollToTop>
     </>
   );
 };
