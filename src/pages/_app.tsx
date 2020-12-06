@@ -2,7 +2,6 @@ import { createGlobalStyle, ThemeProvider } from "styled-components";
 import React from "react";
 import * as Sentry from "@sentry/react";
 import Layout from "../components/Layout";
-import { NextWebVitalsMetric } from "next/app";
 
 const GlobalStyle = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
@@ -149,20 +148,6 @@ const theme = {
     primary: "#0070f3",
   },
 };
-
-export function reportWebVitals({ label, value, id }: NextWebVitalsMetric) {
-  // @ts-ignore
-  if (typeof window !== "undefined" && typeof window.gtag !== "undefined") {
-    // @ts-ignore
-    window.gtag("event", name, {
-      event_category:
-        label === "web-vital" ? "Web Vitals" : "Next.js custom metric",
-      value: Math.round(name === "CLS" ? value * 1000 : value), // values must be integers
-      event_label: id, // id unique to current page load
-      non_interaction: true, // avoids affecting bounce rate.
-    });
-  }
-}
 
 Sentry.init({
   dsn:
