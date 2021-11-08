@@ -11,16 +11,8 @@ const SiteWrapper = styled.div`
 `;
 
 const Header = styled.header`
-  background-image: linear-gradient(
-    95.38deg,
-    #ff77fa -15.29%,
-    #e181fa 3.44%,
-    #7ba5fe 67.52%,
-    #4eb5ff 95.64%
-  );
+  background-color: #1b1b5a;
   padding: 1rem;
-  border-bottom-left-radius: 89px;
-  border-bottom-right-radius: 89px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -102,22 +94,10 @@ const Layout: React.FC = (props) => {
           <SiteTitle>Сказка</SiteTitle>
         </Link>
         <HeaderLinks>
-          <HeaderLink href="/files/skazka-podarki-2021-compressed.pdf">
-            <HeaderLinkIcon
-              width={25}
-              height={25}
-              src="/svgs/map_icon.svg"
-              alt="Каталог Новогодних подарков 2021 от Сказки"
-            />
+          <HeaderLink href="/files/skazka-podarki-2022.pdf">
             <HeaderLinkText>Каталог</HeaderLinkText>
           </HeaderLink>
           <HeaderLink href="#footer">
-            <HeaderLinkIcon
-              width={25}
-              height={25}
-              src="/svgs/map_icon.svg"
-              alt="Карта"
-            />
             <HeaderLinkText>Где Мы</HeaderLinkText>
           </HeaderLink>
         </HeaderLinks>

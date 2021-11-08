@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Footer = styled.footer`
   width: 100%;
-  background: linear-gradient(91.06deg, #e3b4f0 -5.78%, #50b5ff 136.34%);
+  background-color: #1b1b5a;
   display: flex;
   flex-direction: column;
 
@@ -70,9 +70,6 @@ const SiteFooter = () => (
   <Footer id="footer">
     <AddressBlock>
       <AddressTop>
-        <AddressIconContainer>
-          <img width={35} height={35} src="/svgs/map_icon.svg" alt="Карта" />
-        </AddressIconContainer>
         <AddressTextContainer>
           <address>Сказка ждёт вас:</address>
           <address>г. Кокшетау, Ауэзова 191/1</address>
@@ -97,9 +94,6 @@ const SiteFooter = () => (
 
     <AddressBlock>
       <AddressTop>
-        <AddressIconContainer>
-          <img width={35} height={35} src="/svgs/map_icon.svg" alt="Карта" />
-        </AddressIconContainer>
         <AddressTextContainer>
           <address>Сказка ждёт вас:</address>
           <address>г. Костанай, Карбышева 117</address>
